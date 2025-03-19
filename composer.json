@@ -1,0 +1,29 @@
+{
+    "name": "oh86/laravel-mysql-lb",
+    "version": "1.0.0",
+    "description": "Laravel database driver for mysql cluster",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oh86\\MySqlLB\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chengj",
+            "email": "chen.gj@qq.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oh86\\MySqlLB\\MysqlLBServiceProvoder"
+            ]
+        }
+    }
+}
